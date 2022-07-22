@@ -1,4 +1,4 @@
-# TextractHandwrittingRecognition
+# Transcribing 1800s Women Diary Using AWS Textract, Lambda, and S3
 ## Summary
 Hand writing recognition has been a hot topic in the recent years. Transcribing hand writings on hand-filled documents or even historical manuscripts is immensively helpful to many scholars in the humanity field. This summer, I have participated in Data+ program at Duke University to help the library build a tool to transcribe women diaries in their digital archive. I have chosen to utilize Amazon's Textract as my way to approach this problem. Amazon Textract is trained on millions of data and is desgined to tackle the HTR problem. There are three advantages to incorporate cloud computing into your project:   
 - (1) The pipeline is automated, so once the end user uploads an image or pdf, the model will be triggered to run and the result will be sent back to them  
