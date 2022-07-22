@@ -4,7 +4,8 @@ Hand writing recognition has been a hot topic in the recent years. Transcribing 
 - (1) The pipeline is automated, so once the end user uploads an image or pdf, the model will be triggered to run and the result will be sent back to them  
 - (2) The user does not need to set up the required environment or install any packages, which is helpful to non-technical users  
 - (3) Machine learning model is easily deployed to the cloud so that the end user does not need to worry about forking the files and training the model on their end. They will just either log into the AWS console or open up an URL.  
-Here is a high level strucutre of this machine learning pipeline:
+
+**Here is a high level strucutre of this machine learning pipeline:**
 ![image](https://user-images.githubusercontent.com/90075179/180444326-652c8576-4217-4c17-bc5d-5e181a580447.png)
 A pdf file is uploaded to Amazon S3, then the first Lambda function will initiate the process and send the input file to the Textract service. The Textract will then send the output (JSON payload) back to another Lambda function which is responsible for cleaning the JSON payload, turning the JSON file to CSV, and storing the output in Amazon S3.  
 This repository introduces you to build an automated tool on Amazon's AWS to fully automate the HTR process.
