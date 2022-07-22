@@ -24,4 +24,4 @@ Search S3 in the top search bar and then follow the instruction to create a new 
 Search IAM in the search bar at the top. Click on roles on the left panel, then click create role. Head to "Choose a use case" and select Lambda. Click Next and search "AWSLambdaExecute" and check the box. Also search for "AmazonTextractFullAccess" and check the box. Doing the above steps will give your Lambda functions permissions to access S3 and Textract. Click through till the review page. Name the role as "lambda_textract_async" then create the role.  
 
 ### Step 4: Create your Lambda function
-Search lambda in the search bar and navigate to lambda in your console. Click "Layers" on the left panel. Click"create layer" and name the layer as "pandas_3_9_textract" and upload the pandas_39.zip file that I attached in the Github. 
+Search lambda in the search bar and navigate to lambda in your console. Click "Layers" on the left panel. Click"create layer" and name the layer as "pandas_3_9_textract" and upload the pandas-39.zip file that I attached in the Github. 
