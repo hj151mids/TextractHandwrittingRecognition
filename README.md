@@ -14,8 +14,8 @@ This repository introduces you to build an automated tool on Amazon's AWS to ful
 ### Step 1: Register your free AWS account
 First of all, it is necessary for you to have an AWS account in order to set up correctly for this project.  
 The free tier will be available for 12 months and you will need to have a credit card on file in order to enjoy all the free tier benefits.
-Follow this link to register your free tier account: [link](https://aws.amazon.com/account/sign-up)
-Once you have signed up, log into your console by typing [link](console.aws.amazon.com) in your url bar.
+Follow this link to register your free tier account: [Register Here](https://aws.amazon.com/account/sign-up)
+Once you have signed up, log into your console by clicking this link [Log In Here](console.aws.amazon.com).
 
 ### Step 2: Create your S3 bucket
 Search S3 in the top search bar and then follow the instruction to create a new bucket named ***"data-plus-textract"*** leaving everything on default. Inside the S3 bucket you created, create three new folders named ***"async-doc-text"***, ***"csv"***, and ***"textract-output"***. The first "async-doc-text" folder will be the folder for you to upload your file, the second csv folder will be the output folder. You will be able to download the output csv files in this folder.  
