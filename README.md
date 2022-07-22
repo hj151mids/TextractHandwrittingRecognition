@@ -10,3 +10,5 @@ This repository introduces you to build an automated tool on Amazon's AWS to ful
 First of all, it is necessary for you to have an AWS account in order to set up correctly for this project.  
 The free tier will be available for 12 months and you will need to have a credit card on file in order to enjoy all the free tier benefits.
 Follow this link to register your free tier account: https://aws.amazon.com/account/sign-up
+
+### Step 2: 
