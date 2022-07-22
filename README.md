@@ -9,7 +9,7 @@ Hand writing recognition has been a hot topic in the recent years. Transcribing 
 **Here is a high level strucutre of this asynchronous machine learning pipeline:**
 ![image](https://user-images.githubusercontent.com/90075179/180444326-652c8576-4217-4c17-bc5d-5e181a580447.png)
 A pdf file is uploaded to Amazon S3, then the first Lambda function will initiate the process and send the input file to the Textract service. The Textract will then send the output (JSON payload) back to another Lambda function which is responsible for cleaning the JSON payload, turning the JSON file to CSV, and storing the output in Amazon S3.  
-This repository introduces you to build an automated tool on Amazon's AWS to fully automate the HTR process.
+This repository guides you to build an automated tool on Amazon's AWS to fully automate the HTR process.
 
 ### Step 1: Register your free AWS account
 First of all, it is necessary for you to have an AWS account in order to set up correctly for this project.  
