@@ -63,4 +63,4 @@ Download the transcribed file in the ***csv*** folder:
 The sample output looks like this when opened in excel:  
 ![image](https://user-images.githubusercontent.com/90075179/181639615-1287e9cb-aa60-4947-8cd6-43ff3e6cdab4.png)  
 
-Down below are the average metrics tested on all the documents that we transcribed. The **Character Error Rate (CER) is 19.83%**. The **Word Error Rate (WER) is 42.13%**. The **Fuzz Ratio is 87%**. Metric wise, Textract is performing well. Performance wise, it would take AWS 4 minutes and 12 seconds to transcribe a full diary that is about 200 pages sized 250 mb. 
+Down below are the average metrics tested on all the documents that we transcribed. The **Character Error Rate (CER) is 19.83%**. The **Word Error Rate (WER) is 42.13%**. The **Fuzz Ratio is 87%**. Metric wise, Textract is performing well. Performance wise, it would take AWS 4 minutes and 12 seconds to transcribe a full diary that is about 200 pages sized 250 mb.
