@@ -13,6 +13,7 @@ Here is a summary table of the performance metrics:
 | Word Error Rate (WER)         | Character Error Rate (CER)| Fuzz Ratio (Scaled Levenshtein Distance) |
 |--------------|:-----:|-----------:|
 | 42.13% |  19.83% |        87% |  
+
 This repository guides you to build an automated tool on Amazon's AWS to fully automate the HTR process.
 
 ### Step 1: Register Your Free AWS Account
